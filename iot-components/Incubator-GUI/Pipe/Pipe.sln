@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pipe", "Pipe.csproj", "{BD70BCDD-47CE-430E-8E02-E546CEB9179E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD70BCDD-47CE-430E-8E02-E546CEB9179E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD70BCDD-47CE-430E-8E02-E546CEB9179E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD70BCDD-47CE-430E-8E02-E546CEB9179E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD70BCDD-47CE-430E-8E02-E546CEB9179E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6D01A12-CB4D-421E-82FE-E72D700700BD}
+	EndGlobalSection
+EndGlobal
