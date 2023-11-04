@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --border-color: #ccc;
+    --main-color: #002753;
+    --main-height: 50px;
+}
+body {
+    letter-spacing: 0.8px;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* start main content  */
+
+.main .center  {
+    margin: 0 auto;
+    text-align: center;
+}
+.main .pic{
+    margin: 0 auto;
+    width:140px;
+    height:140px ;
+}
+.main .center .pic img{
+    height: 100%;
+    border: 1px solid transparent;
+    width: 100%;
+    border-radius: 50%;
+
+}
+.main .center .tit1{
+font-weight: 600;
+}
+.main .center .tit2{
+
+    color:#FF0000;
+}
+.main .form{
+    max-height: 390px;
+    overflow-y: scroll;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #eee;
+
+}
+.main .form p{
+ color: black;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+        font-weight: 600;
+}
+.main .form span{  
+     color: #423D3D;
+    font-weight: 400;
+}
+/* End main content  */
+

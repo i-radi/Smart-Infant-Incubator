@@ -1,0 +1,32 @@
+/* start list */
+
+.main .list {
+    box-shadow: 2px 2px 4px #00000029;
+    background-color: white;
+
+    width: 40px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+}
+
+.main .list .add,
+.del {
+    width: 30px;
+    height: 60px;
+    margin: 10px 0;
+}
+
+.main .list img {
+    width: 100%;
+}
+
+
+/* end list */

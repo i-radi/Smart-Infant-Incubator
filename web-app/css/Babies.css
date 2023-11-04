@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --border-color: #ccc;
+    --main-color: #002753;
+    --main-height: 50px;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*  start icon design  */
+
+hr {
+    margin: 0 auto;
+}
+
+
+/* cards */
+
+.main {
+    padding: 10px;
+    margin: 10px auto;
+}
+.main .cards {
+       padding: auto;
+       max-height: 625px;
+       overflow-y: scroll;
+   }
+.main .middle {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .middle button {
+    height: 50px;
+    box-shadow: 2px 2px 4px #00000029;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+}
+
+.main .red-title {
+    font-size: 18px;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.main .card {
+    font-size: 16px;
+    margin: 20px;
+    border: 0.5px solid #ccc;
+    border-radius: 18px;
+}
+
+.main .card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100px;
+    border-bottom: 0.5px solid #ccc;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.main .card p {
+    margin: 0;
+}
+
+.main .card .tit1 {
+    font-weight: 600;
+}
+
+
+/* start list */
+
+.main .list {
+    box-shadow: 2px 2px 8px #00000029;
+    background-color: white;
+    width: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+}
+
+.main .list .add,
+.del {
+    width: 30px;
+    margin: 10px;
+}
+
+.main .list img {
+    width: 100%;
+}
+
+
+/* end list */

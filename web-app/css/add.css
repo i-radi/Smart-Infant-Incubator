@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    letter-spacing: 0.8px;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* body  */
+/* start main content  */
+.main .center .pic{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+.main .center .pic img{  
+      background-color: white;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 25px;
+    position: absolute;
+    bottom: 0;
+    right: 27px;
+}
+.main .all {
+  
+    margin: 0 auto;
+    
+}
+.main form{ 
+    height: 412px;
+    overflow-y: scroll;
+    position: relative;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.main form button{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    height: 40px;
+    width:110px;
+    border: 1px solid #08003C;
+    border-radius: 10px;
+    background-color: transparent;
+    margin:20px 0 ;
+    
+    
+}
+.main button:hover{
+    color: white;
+    background-color: #08003C ;
+}
+/* End main content  */
+

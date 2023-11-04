@@ -1,0 +1,58 @@
+/*  This file is for
+operators page 
+Doctors page
+Nurses page 
+ */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --border-color: #ccc;
+    --main-color: #002753;
+    --main-height: 50px;
+}
+body {
+    height:100vh;
+    font-family: 'Roboto', sans-serif;
+}
+hr {
+    margin: 0 auto;
+    display: none;
+}
+/* cards */
+.main {
+    padding: 10px;
+    margin: 0 auto;
+   
+}
+.main .cards {
+   max-height:calc(100vh -75px) ;
+     border-top: 1px solid #ccc;
+    max-height: 625px;
+    overflow-y: scroll;
+    margin: 0 20px;
+}
+.main .card {
+    font-size: 16px;
+    margin: 20px ;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    max-height: 500px;
+}
+
+.main .card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100px;
+    border-bottom: 0.5px solid #ccc;
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+
+.main .card .tit1 {
+    font-weight: 600;
+}

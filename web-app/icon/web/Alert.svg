@@ -1,0 +1,10 @@
+<svg id="Alert" xmlns="http://www.w3.org/2000/svg" width="37" height="30" viewBox="0 0 37 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f52222;
+      }
+    </style>
+  </defs>
+  <path id="Path_35" data-name="Path 35" class="cls-1" d="M18.5,0C8.325,0,0,6.75,0,15S8.325,30,18.5,30,37,23.25,37,15,28.675,0,18.5,0Zm2.544,22.875H15.956V19.313h5.319v3.563ZM21.275,9l-1.387,8.25H17.113L15.725,9V7.125h5.781V9Z"/>
+</svg>

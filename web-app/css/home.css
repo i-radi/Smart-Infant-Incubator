@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --border-color: #ccc;
+    --main-color: #002753;
+    --main-height: 50px;
+}
+
+body {
+    letter-spacing: 0.8px;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* start right icons */
+
+header .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+header .header {
+max-height: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    margin: 10px 0;
+    width: 150px;
+    height: 50px;
+  
+ 
+}
+header .header .right {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header .right .not {
+    margin: 0 20px;
+    width: 30px;
+    height: 30px;
+}
+header .not img {
+    width: 100%;
+    height: 100%;
+}
+
+
+header .header .right .admin {
+    width: 40px;
+    height: 40px;
+}
+
+header .header .right .admin img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+/* end right icons */
+
+
+/* start main */
+
+.title {
+    font-size: 22px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.main {
+    margin: 10px auto;
+    padding: 10px auto;
+}
+
+
+/* End main */
+
+
+/* start card1  */
+
+.card {
+    font-weight: bold;
+    max-height: 200px;
+    position: relative;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    border: 1px solid #E74C00;
+}
+
+@media (max-width:576px) {
+    .card {
+        text-align: center;
+        margin: 10px auto;
+    }
+}
+
+.card::before {
+    width: 75%;
+    position: absolute;
+    content: '';
+    height: 10px;
+    background-color: #E74C00;
+    border-radius: 10px;
+    left: 12%;
+    top: -3%;
+}
+
+.card .card-icon {
+    text-align: center;
+    margin: 10px auto;
+    width: 75%;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-icon img {
+    margin-bottom: 10px;
+    width: 30px;
+}
+
+
+/* end card1  */
+
+
+/* start card2  */
+
+.card2 {
+    border: 1px solid #ADADAD;
+}
+
+.card2::before {
+    background-color: #ADADAD;
+}
+
+
+/* end card2 */
+
+
+/* start card3  */
+
+.card3 {
+    border: 1px solid #66AAE4;
+}
+
+.card3::before {
+    background-color: #66AAE4;
+}
+
+
+/* end card3 */
+
+
+/* start card4  */
+
+.card4 {
+    border: 1px solid #70D9CE;
+}
+
+.card4::before {
+    background-color: #70D9CE;
+}
+
+
+/* end card4 */

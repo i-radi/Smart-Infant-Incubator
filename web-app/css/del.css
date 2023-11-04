@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --border-color: #ccc;
+    --main-color: #002753;
+    --main-height: 50px;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    height: 360px;
+    position: relative;
+    border: 1px solid #FF0000;
+    border-radius: 15px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.form .tit1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form .tit2 {
+    font-size: 16px;
+}
+
+.form span {
+    color: #FF0000;
+}
+
+.form .pic {
+    margin: 10PX auto;
+    width: 280PX;
+    height: 150px;
+}
+
+@media (max-width:470px) {
+    .form .pic {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+.form .pic img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+}
+
+.form .can {
+    position: absolute;
+    bottom: 10px;
+    left: 45px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    width: 110px;
+    background-color: #08003C;
+}
+
+.form .del {
+    position: absolute;
+    bottom: 10px;
+    right: 45px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    width: 110px;
+    background-color: #FF0000;
+}
+
+@media (max-width:380px) {
+    .form .del {
+        width: 90px;
+        position: absolute;
+        bottom: 10px;
+        right: 25px;
+    }
+    .form .can {
+        position: absolute;
+        bottom: 10px;
+        left: 25px;
+        width: 90px;
+    }
+}

@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --border-color: #ccc;
+    --main-color: #002753;
+    --main-height: 50px;
+}
+
+body {
+    height: 100vh;
+    background: transparent linear-gradient(180deg, #002855 0%, #001233 100%) 0% 0% no-repeat padding-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    position: relative;
+}
+
+.form {
+    position: relative;
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    height: 500px;
+    margin: 30px;
+    padding: 100px 30px;
+}
+
+@media (max-width: 992px) {
+    .form {
+        margin: 20px auto;
+    }
+}
+
+
+/* .elements {
+    width: 90%;
+    position: absolute;
+    left: 25px;
+    top: 100PX;
+} */
+
+label {
+    position: relative;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    height: var(--main-height);
+    display: block;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 0px;
+    color: #001233;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #002855;
+}
+
+.form p {
+    color: #F24845;
+    position: absolute;
+    right: 0;
+    top: 75px;
+}
+
+label img {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 30px;
+}
+
+button {
+    border: 0 solid;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #002753;
+    color: white;
+    text-align: center;
+    height: var(--main-height);
+    margin-top: 30px;
+}
+
+.main .login-img {
+    position: absolute;
+    top: 80px;
+    right: -39px;
+}
+
+.main .login-img::after {
+    position: absolute;
+    content: ' Divide responsibilities , entering and controling informations ';
+    bottom: 0;
+    left: 20%;
+    color: white;
+}
+
+.main .login-img img {
+    width: 100%;
+    opacity: 0.8;
+}
+
+@media (max-width:993px) {
+    .main .login-img {
+        display: none;
+    }
+}

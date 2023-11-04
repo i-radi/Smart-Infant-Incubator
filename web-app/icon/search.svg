@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.8;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="icon_action_search_24px" data-name="icon/action/search_24px" class="cls-1">
+    <rect id="Boundary" class="cls-2" width="30" height="30" transform="translate(0 9)"/>
+    <path id="_Color" data-name=" ↳Color" d="M32.934,36h0L22.641,25.73V24.1l-.556-.576a13.4,13.4,0,1,1,1.441-1.441l.576.556H25.73L36,32.934,32.936,36ZM13.379,4.116a9.263,9.263,0,1,0,9.263,9.263A9.273,9.273,0,0,0,13.379,4.116Z" transform="translate(3)"/>
+  </g>
+</svg>

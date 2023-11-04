@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --border-color: #ccc;
+    --main-color: #002753;
+    --main-height: 50px;
+}
+
+body {
+    height: 100vh;
+    background: transparent linear-gradient(180deg, #002855 0%, #001233 100%) 0% 0% no-repeat padding-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    height: 500px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+.form p {
+    text-align: center;
+    margin: 20px auto;
+    color: #BB0000;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    height: var(--main-height);
+    display: block;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 100px 0px;
+    color: #001233;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #002855;
+}
+
+button {
+    border: 0 solid;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #002753;
+    color: white;
+    text-align: center;
+    height: var(--main-height);
+    margin-top: 30px;
+}
