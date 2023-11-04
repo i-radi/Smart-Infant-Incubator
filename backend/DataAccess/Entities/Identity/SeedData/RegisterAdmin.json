@@ -1,0 +1,19 @@
+{
+  "name": "admin",
+  "username": "admin",
+  "email": "admin@mail.com",
+  "password": "Pa$$w0rd",
+  "phoneNumber": "01001101201",
+  "type": 1,
+  "ssn": "222-33-44",
+  "birthDate": "2000-04-01T00:00:24.249Z",
+  "isEmployee": true,
+  "hospitalName": "BHI",
+
+  "hospitalPhone": "19047",
+  "employee": {
+    "university": "BHI47",
+    "degreeOfPromotion": "prof",
+    "specialization": "Software"
+  }
+}

@@ -1,0 +1,28 @@
+Acounts in DataBase
+	password:Pa$$w0rd
+Admin:
+	mail:admin@mail.com
+Operator:
+
+	mail:op1@mail.com
+	mail:op2@mail.com
+Doctor:
+	mail:doc1@mail.com
+	mail:doc2@mail.com
+	mail:doc3@mail.com
+Nurse:
+	mail:nrs1@mail.com
+	mail:nrs2@mail.com
+	mail:nrs3@mail.com
+	mail:nrs4@mail.com
+Mather:
+	mail:mom1@mail.com
+	mail:mom2@mail.com
+	mail:mom3@mail.com
+	mail:mom4@mail.com
+	mail:mom5@mail.com
+
+Hospital ==> 1
+Incubator ==> 3
+Baby ==> 5
+Employee ==> 10

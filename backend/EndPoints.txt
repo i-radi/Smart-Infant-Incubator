@@ -1,0 +1,70 @@
+Incubator EndPoints
+1. post:Login(email, password)=>jwt
+2. post:signup(userViewModel, type=role)=>jwt
+
+-- Administrator & Perators
+3. get:Admin(jwt)=>adminViewModel
+4. put:Admin(jwt, adminViewModel)=>adminViewModel
+5. get:operators(jwt)=>list<operatorViewModel>
+6. get:operator(jwt, operatorId)=>operatorViewModel
+7. put:operator(jwt, operatorId ,operatorViewModel)=>operatorViewModel
+8. post:operator(jwt, operatorId)=>operatorViewModel
+9. delete:operator(jwt, operatorId ,operatorViewModel)=>operatorViewModel
+10. get:doctors(jwt)=>list<doctorViewModel>
+11. get:doctor(jwt, doctorId)=>doctorViewModel
+12. put:doctor(jwt, doctorId,doctorViewModel)=>doctorViewModel
+13. post:doctor(jwt, doctorId)=>doctorViewModel
+14. delete:doctor(jwt, doctorId,doctorViewModel)=>doctorViewModel
+15. get:nurses(jwt)=>list<nurseViewModel>
+16. get:nurse(jwt, nurseId)=>nurseViewModel
+17. put:nurse(jwt, nurseId ,nurseViewModel)=>nurseViewModel
+18. post:nurse(jwt, nurseId)=>nurseViewModel
+19. delete:nurse(jwt, nurseId ,nurseViewModel)=>nurseViewModel
+20. get:incubators(jwt, IsEmpty)=>list<incubatorViewModel>
+21. get:incubatorInfo(jwt, incubatorId)=>incubatorInfoViewModel
+22. put:incubatorInfo(jwt, incubatorId ,incubatorInfoViewModel)=>incubatorInfoViewModel
+23. post:incubatorInfo(jwt, incubatorId)=>incubatorInfoViewModel
+24. delete:incubator(jwt, incubatorId ,incubatorViewModel)=>incubatorViewModel
+25. get:notifications(jwt)=>notificationsViewModel
+
+-- Doctor
+endpoint 11 ,12, 15, 20, 3, 25, 34
+26. get:incubator(jwt)=>incubatorViewModel                                              //IOT
+27. get:incubatorControl(jwt)=>incubatorControlViewModel                                //IOT
+28. put:incubatorControl(jwt, incubatorControlViewModel)=>incubatorControlViewModel     //IOT
+29. get:cryAnalysis(jwt)=>cryAnalysisViewModel                                          //ML
+30. post:startCryAnalysis(jwt)=>cryAnalysisViewModel                                    //ML
+
+-- Nurse
+endpoint 16, 17, 10, 20, 26, 27, 28, 29, 30, 3, 25, 34
+
+-- Mother
+endpoint 10, 11 ,15, 16, 20, 26 ,29 ,30 ,34
+31. get:mom(jwt)=>momViewModel
+32. put:mom(jwt, momViewModel)=>cryAnalysisViewModel
+
+-- Hospital
+33. post:hospital(jwt, hospitalViewModel)=>hospitalViewModel
+
+-- user Phone
+34. get:userPhone(jwt, type)=>phoneNumber
+
+-------------------------------------------------------------------------------------------
+-- ViewModels
+userViewModel:name,username,email,password,phoneNumber
+adminInfoViewModel:username,phonenumber,email,hospitalnumber,password,img
+adminViewModel:username,phonenumber,email,hospitalnumber,password,img
+operatorInfoViewModel:specialization,degreeOfPromotion,ssn,birthDate,university,babyCode,username,password,phoneNumber,email,hospitalnumber,img
+operatorViewModel:username,img
+doctorInfoViewModel:specialization,degreeOfPromotion,ssn,birthDate,university,babyCode,username,password,phoneNumber,email,hospitalnumber,img
+doctorViewModel:degreeOfPromotion,babyCode,username,phoneNumber,email,hospitalnumber,img
+nurseInfoViewModel:specialization,degreeOfPromotion,ssn,birthDate,university,babyCode,username,password,phoneNumber,email,hospitalnumber,img
+nurseViewModel:degreeOfPromotion,babyCode,username,phoneNumber,email,hospitalnumber,img
+momViewModel:username,phoneNumber,email,list<babyCode>,img
+incubatorViewModel:IsEmpty,babyCode,birthDate
+incubatorInfoViewModel:IsEmpty,babyCode,birthDate,gender,doctor,nurse,mom,momNumber
+incubatorControlViewModel:IOT
+cryAnalysisViewModel:ML
+hospitalViewModel:hospitalnumber,hospitalname,img
+
+Xd Adobe => https://xd.adobe.com/view/84bd819b-d5d0-4fb0-8ad0-93f5f2235f52-d1ee

@@ -1,0 +1,33 @@
+[
+  {"get":{
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "gender": "string",
+    "birthDate": "2022-04-01T00:00:14.313Z",
+    "babyCode": "string",
+    "incubatorId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "babyImgId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "motherId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "doctorId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "nurseId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+  }},
+  {"post":{
+    "gender": "string",
+    "birthDate": "2022-04-01T00:00:32.720Z",
+    "babyCode": "string",
+    "incubatorId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "babyImgId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "motherId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "doctorId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "nurseId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+  }},
+  {"put":{
+    "gender": "string",
+    "birthDate": "2022-04-01T00:00:59.851Z",
+    "babyCode": "string",
+    "incubatorId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "babyImgId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "motherId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "doctorId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "nurseId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+  }}
+]

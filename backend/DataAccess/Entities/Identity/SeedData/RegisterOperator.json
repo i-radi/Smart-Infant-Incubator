@@ -1,0 +1,38 @@
+[
+  {
+    "name": "operator1",
+    "username": "operator1",
+    "email": "op1@mail.com",
+    "password": "Pa$$w0rd",
+    "phoneNumber": "01001101201",
+    "type": 2,
+    "ssn": "222-33-44",
+    "birthDate": "2000-04-01T00:00:24.249Z",
+    "isEmployee": true,
+    "hospitalName": "BHI",
+    "hospitalPhone": "19047",
+    "employee": {
+      "university": "BHI47",
+      "degreeOfPromotion": "engineer",
+      "specialization": "Software"
+    }
+  },
+  {
+    "name": "operator2",
+    "username": "operator2",
+    "email": "op2@mail.com",
+    "password": "Pa$$w0rd",
+    "phoneNumber": "01001101201",
+    "type": 2,
+    "ssn": "222-33-44",
+    "birthDate": "2000-04-01T00:00:24.249Z",
+    "isEmployee": true,
+    "hospitalName": "BHI",
+    "hospitalPhone": "19047",
+    "employee": {
+      "university": "BHI47",
+      "degreeOfPromotion": "engineer",
+      "specialization": "Software"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "doctor1",
+    "username": "doctor1",
+    "email": "doc1@mail.com",
+    "password": "Pa$$w0rd",
+    "phoneNumber": "01001101201",
+    "type": 3,
+    "ssn": "222-33-44",
+    "birthDate": "2000-04-01T00:00:24.249Z",
+    "isEmployee": true,
+    "hospitalName": "BHI",
+    "hospitalPhone": "19047",
+    "employee": {
+      "university": "BHI47",
+      "degreeOfPromotion": "doc",
+      "specialization": "Software"
+    }
+  },
+  {
+    "name": "doctor2",
+    "username": "doctor2",
+    "email": "doc2@mail.com",
+    "password": "Pa$$w0rd",
+    "phoneNumber": "01001101201",
+    "type": 3,
+    "ssn": "222-33-44",
+    "birthDate": "2000-04-01T00:00:24.249Z",
+    "isEmployee": true,
+    "hospitalName": "BHI",
+    "hospitalPhone": "19047",
+    "employee": {
+      "university": "BHI47",
+      "degreeOfPromotion": "doc",
+      "specialization": "Software"
+    }
+  },
+  {
+    "name": "doctor3",
+    "username": "doctor3",
+    "email": "doc3@mail.com",
+    "password": "Pa$$w0rd",
+    "phoneNumber": "01001101201",
+    "type": 3,
+    "ssn": "222-33-44",
+    "birthDate": "2000-04-01T00:00:24.249Z",
+    "isEmployee": true,
+    "hospitalName": "BHI",
+    "hospitalPhone": "19047",
+    "employee": {
+      "university": "BHI47",
+      "degreeOfPromotion": "doc",
+      "specialization": "Software"
+    }
+  }
+]

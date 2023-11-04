@@ -1,0 +1,74 @@
+[
+  {"postLogin": {
+    "email": "string",
+    "password": "string"
+  }},
+  {"get": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "type": 0,
+    "userName": "string",
+    "email": "string",
+    "userImgId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  }},
+  {"put": {
+    "userName": "string",
+    "email": "string",
+    "phoneNumber": "string",
+    "userImgId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  }},
+  {"getDoctor": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "type": 0,
+    "name": "string",
+    "userName": "string",
+    "email": "string",
+    "phoneNumber": "string",
+    "ssn": "string",
+    "birthDate": "2022-04-14T08:22:32.408Z",
+    "userImgId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "hospitalName": "string",
+    "hospitalPhone": "string",
+    "university": "string",
+    "degreeOfPromotion": "string",
+    "specialization": "string",
+    "babyCodes": [
+      "string"
+    ]
+  }},
+  {"getNurse": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "type": 0,
+    "name": "string",
+    "userName": "string",
+    "email": "string",
+    "phoneNumber": "string",
+    "ssn": "string",
+    "birthDate": "2022-04-14T08:23:50.135Z",
+    "userImgId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "hospitalName": "string",
+    "hospitalPhone": "string",
+    "university": "string",
+    "degreeOfPromotion": "string",
+    "specialization": "string",
+    "babyCodes": [
+      "string"
+    ]
+  }},
+  {"getMom": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "type": 0,
+    "name": "string",
+    "userName": "string",
+    "email": "string",
+    "phoneNumber": "string",
+    "userImgId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "babyCodes": [
+      "string"
+    ]
+  }},
+  {"postChangePassord": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "password": "string",
+    "newPassword": "string"
+  }}
+]

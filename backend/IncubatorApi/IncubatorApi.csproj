@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>f14fd63d-02b5-4674-b02b-de9d37485b93</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="AutoMapper" Version="11.0.1" />
+	  <PackageReference Include="InfluxDB.Client" Version="4.1.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.5" />
+	  <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.5">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="Microsoft.ML" Version="1.7.1" />
+	  <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.11.0" />
+	  <PackageReference Include="Microsoft.ML.OnnxRuntime.Gpu" Version="1.11.0" />
+	  <PackageReference Include="RabbitMQ.Client" Version="6.3.0" />
+	  <PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
+	  <PackageReference Include="Serilog.Sinks.Seq" Version="5.1.1" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+ 
+
+  </ItemGroup>
+
+  <ItemGroup>
+	  <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+	  <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+[
+  {"enum": {
+    "0":"None",
+    "1":"Admin",
+    "2":"Operator",
+    "3":"Doctor",
+    "4":"Nurse",
+    "5":"Mother"
+}}
+]

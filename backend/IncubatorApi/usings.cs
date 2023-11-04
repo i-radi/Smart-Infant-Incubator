@@ -1,0 +1,15 @@
+﻿global using System;
+global using AutoMapper;
+global using System.Text;
+global using System.Linq;
+global using DataAccess.Entities;
+global using IncubatorApi.Helpers;
+global using Microsoft.OpenApi.Models;
+global using Microsoft.AspNetCore.Mvc;
+global using InfraStructure.Interfaces;
+global using System.Collections.Generic;
+global using Microsoft.Extensions.Hosting;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.IdentityModel.Tokens;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.Extensions.DependencyInjection;

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "nurse1",
+    "username": "nurse1",
+    "email": "nrs1@mail.com",
+    "password": "Pa$$w0rd",
+    "phoneNumber": "01001101201",
+    "type": 4,
+    "ssn": "222-33-44",
+    "birthDate": "2000-04-01T00:00:24.249Z",
+    "isEmployee": true,
+    "hospitalName": "BHI",
+    "hospitalPhone": "19047",
+    "employee": {
+      "university": "BHI47",
+      "degreeOfPromotion": "nurse",
+      "specialization": "Software"
+    }
+  },
+  {
+    "name": "nurse2",
+    "username": "nurse2",
+    "email": "nrs2@mail.com",
+    "password": "Pa$$w0rd",
+    "phoneNumber": "01001101201",
+    "type": 4,
+    "ssn": "222-33-44",
+    "birthDate": "2000-04-01T00:00:24.249Z",
+    "isEmployee": true,
+    "hospitalName": "BHI",
+    "hospitalPhone": "19047",
+    "employee": {
+      "university": "BHI47",
+      "degreeOfPromotion": "nurse",
+      "specialization": "Software"
+    }
+  },
+  {
+    "name": "nurse3",
+    "username": "nurse3",
+    "email": "nrs3@mail.com",
+    "password": "Pa$$w0rd",
+    "phoneNumber": "01001101201",
+    "type": 4,
+    "ssn": "222-33-44",
+    "birthDate": "2000-04-01T00:00:24.249Z",
+    "isEmployee": true,
+    "hospitalName": "BHI",
+    "hospitalPhone": "19047",
+    "employee": {
+      "university": "BHI47",
+      "degreeOfPromotion": "nurse",
+      "specialization": "Software"
+    }
+  },
+  {
+    "name": "nurse4",
+    "username": "nurse4",
+    "email": "nrs4@mail.com",
+    "password": "Pa$$w0rd",
+    "phoneNumber": "01001101201",
+    "type": 4,
+    "ssn": "222-33-44",
+    "birthDate": "2000-04-01T00:00:24.249Z",
+    "isEmployee": true,
+    "hospitalName": "BHI",
+    "hospitalPhone": "19047",
+    "employee": {
+      "university": "BHI47",
+      "degreeOfPromotion": "nurse",
+      "specialization": "Software"
+    }
+  }
+]

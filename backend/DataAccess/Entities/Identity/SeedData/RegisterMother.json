@@ -1,0 +1,72 @@
+[
+  {
+    "name": "mom1",
+    "username": "mom1",
+    "email": "mom1@mail.com",
+    "password": "Pa$$w0rd",
+    "phoneNumber": "01001101201",
+    "type": 5,
+    "ssn": null,
+    "birthDate": null,
+    "isEmployee": false,
+    "hospitalName": "BHI",
+    "hospitalPhone": "19047",
+    "employee": null
+  },
+  {
+    "name": "mom2",
+    "username": "mom2",
+    "email": "mom2@mail.com",
+    "password": "Pa$$w0rd",
+    "phoneNumber": "01001101201",
+    "type": 5,
+    "ssn": null,
+    "birthDate": null,
+    "isEmployee": false,
+    "hospitalName": "BHI",
+    "hospitalPhone": "19047",
+    "employee": null
+  },
+  {
+    "name": "mom3",
+    "username": "mom31",
+    "email": "mom3@mail.com",
+    "password": "Pa$$w0rd",
+    "phoneNumber": "01001101201",
+    "type": 5,
+    "ssn": null,
+    "birthDate": null,
+    "isEmployee": false,
+    "hospitalName": "BHI",
+    "hospitalPhone": "19047",
+    "employee": null
+  },
+  {
+    "name": "mom4",
+    "username": "mom4",
+    "email": "mom4@mail.com",
+    "password": "Pa$$w0rd",
+    "phoneNumber": "01001101201",
+    "type": 5,
+    "ssn": null,
+    "birthDate": null,
+    "isEmployee": false,
+    "hospitalName": "BHI",
+    "hospitalPhone": "19047",
+    "employee": null
+  },
+  {
+    "name": "mom5",
+    "username": "mom5",
+    "email": "mom5@mail.com",
+    "password": "Pa$$w0rd",
+    "phoneNumber": "01001101201",
+    "type": 5,
+    "ssn": null,
+    "birthDate": null,
+    "isEmployee": false,
+    "hospitalName": "BHI",
+    "hospitalPhone": "19047",
+    "employee": null
+  }
+]

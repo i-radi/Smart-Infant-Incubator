@@ -1,0 +1,30 @@
+[
+  {"get":{
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "incubatorCode": "string",
+    "isEmpty": true,
+    "incubatorImgId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "baby": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "gender": "string",
+      "birthDate": "2022-04-01T00:00:19.610Z",
+      "babyCode": "string",
+      "incubatorId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "babyImgId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "motherId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "doctorId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "nurseId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    }
+  }},
+  {"post":{
+    "incubatorCode": "string",
+    "isEmpty": true,
+    "incubatorImgId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+  }},
+  {"put":{
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "incubatorCode": "string",
+    "isEmpty": true,
+    "incubatorImgId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+  }}
+]

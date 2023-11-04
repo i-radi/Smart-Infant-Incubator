@@ -1,0 +1,23 @@
+version: '3'
+services:
+  ms-sql-server:
+    image: mcr.microsoft.com/mssql/server:latest-ubuntu
+    environment:
+      ACCEPT_EULA: "Y"
+      SA-PASSWORD: "Pa$$w0rd2022"
+      MSSQL_PID: Express
+    ports:
+      - "1433:1433"
+  seq:
+    image: datalust/seq
+    environment:
+      ACCEPT_EULA: "Y"
+    ports:
+      - "5341:80"
+  incubatorapi:
+    build: IncubatorApi/
+    environment:
+      DBServer: "ms-sql-server"
+    ports:
+    - "8000:80"
+  
